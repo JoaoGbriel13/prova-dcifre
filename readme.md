@@ -12,6 +12,7 @@ Este projeto foi desenvolvido para o processo seletivo. Ele consiste em uma API 
 - Pydantic
 - pytest
 - httpx
+- SwaggerUI
 
 ## 1. Configuração do Ambiente
 
@@ -172,7 +173,7 @@ A documentação será gerada automaticamente a partir dos endpoints definidos n
     ```
 
 - A API estará disponível em `http://127.0.0.1:8000`.
-
+- Para usar a API com o SwaggerUI basta utilizar o link `http://127.0.0.1:8000/docs`
 - Para rodar as migrações e garantir que o banco esteja atualizado, use o Alembic conforme descrito anteriormente.
 
 ## Licença
